@@ -1,7 +1,8 @@
 name: 📝 User Story
 description: Template for creating user stories in InfiniLore
 title: 'UserStory | '
-assignee: AnnaSasDev
+assignees:
+  - AnnaSasDev
 labels:
   - dev story
   - enhancement
