@@ -8,8 +8,7 @@ labels:
   - enhancement
 projects:
   - InfiniLore/1
-type:
-  - Feature
+type: Feature
 
 # ------------------------------------------
 #             ACTUAL FORM BODY
