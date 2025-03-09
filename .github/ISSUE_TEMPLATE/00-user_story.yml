@@ -1,67 +1,85 @@
-name: User Story
-description: Template for creating user stories
+name: 📝 User Story
+description: Template for creating user stories in InfiniLore
 title: 'UserStory | '
+assignee: AnnaSasDev
+labels:
+  - dev story
+  - enhancement
+projects:
+  - InfiniLore/1
 body:
   - type: markdown
     attributes:
       value: >+
-        ### InfiniLore : User Story
+        ## 🦆 InfiniLore : User Story
 
-        User stories provide a clear, simple way to describe the features and
-        their scope.
+        **User stories provide a clear, simple way to describe features and their scope.**  
 
+        Please fill out the sections below to define the feature request. 🚀  
+        
         ---
 
   - type: textarea
     id: who-what-why
     attributes:
-      label: The Who - What - Why
+      label: 🎭 The Who - What - Why
       description: Who is this feature for? What is the feature? Why is it important?
       placeholder: As a ...  I want to ... So that ...
     validations:
       required: true
+
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Context
+      label: 🧐 Additional Context
       description: Any other info or links about this feature (Optional)
-      placeholder: ex. Screenshots, diagrams, or other references
+      placeholder: ex. Screenshots, diagrams, API references, or links to related issues
+
   - type: markdown
     attributes:
       value: |-
         ---
-        # Acceptance Criteria
+        ## ✅ Acceptance Criteria 🎯
 
-         Define what should be true for the feature to be considered complete.
+        Define what should be true for the feature to be considered complete.
+
   - type: textarea
     id: acceptance-criteria-user
     attributes:
-      label: User-Side Criteria
+      label: 🎮 User-Side Criteria
       description: >-
         What should the user be able to do once this feature is implemented?
         (Optional)
       placeholder: >-
-        ex. When I create a new asset, I should be able to link it with existing
-        elements
+        ex. When I create a new asset, I should be able to link it with existing elements
+
   - type: textarea
     id: acceptance-criteria-dev
     attributes:
-      label: Dev-Side Criteria
+      label: 🔧 Dev-Side Criteria
       description: Specific technical requirements for developers (if applicable)
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🔥 Priority Level
+      description: How urgent is this feature?
+      options:
+        - 🟢 Low
+        - 🟡 Medium
+        - 🔴 High
+        - 🚨 Critical
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |-
-        <br>
-
         ---
-        <br>
-  - type: markdown
-    attributes:
-      value: >-
-        This template was generated with [Issue Forms
-        Creator](https://issue-forms-creator.netlify.app)
-  - type: markdown
-    attributes:
-      value: >-
-        This template was generated with [Issue Forms
-        Creator](https://issue-forms-creator.netlify.app)
+        ### 💡 Notes & Inspiration 🌟  
+        - If you're unsure about something, feel free to discuss it in the comments!  
+        - Need help defining your idea? Use the [InfiniLore Documentation](#) 📖  
+        
+        ---
+        
+        _Template generated with [Issue Forms Creator](https://issue-forms-creator.netlify.app)_
