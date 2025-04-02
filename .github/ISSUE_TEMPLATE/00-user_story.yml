@@ -22,8 +22,6 @@ body:
         **User stories provide a clear, simple way to describe features and their scope.**  
 
         Please fill out the sections below to define the feature request. 🚀  
-        
-        ---
 
   - type: textarea
     id: who-what-why
