@@ -22,6 +22,10 @@ body:
         **Dev stories are used to describe development tasks, technical improvements, and infrastructure work.**  
 
         Please fill out the sections below to define the task and its scope. ⚙️  
+
+  - type: markdown
+    attributes:
+      value: ---
         
   - type: textarea
     id: task-description
