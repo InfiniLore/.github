@@ -23,6 +23,10 @@ body:
 
         Please fill out the sections below to define the feature request. 🚀  
 
+  - type: markdown
+    attributes:
+      value: ---
+
   - type: textarea
     id: who-what-why
     attributes:
