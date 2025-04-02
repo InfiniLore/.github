@@ -20,7 +20,9 @@ body:
 
         **Please use this template to report bugs and defects in the InfiniLore platform.**  
 
-        ---
+  - type: markdown
+    attributes:
+      value: ---
 
   - type: textarea
     id: bug-description
