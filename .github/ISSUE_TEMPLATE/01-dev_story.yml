@@ -23,8 +23,6 @@ body:
 
         Please fill out the sections below to define the task and its scope. ⚙️  
         
-        ---
-
   - type: textarea
     id: task-description
     attributes:
