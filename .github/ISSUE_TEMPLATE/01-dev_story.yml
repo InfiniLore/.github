@@ -79,6 +79,7 @@ body:
         - 🔌 Kiota client wrapper
         - 📦 InfiniLore.Credentials
         - 📦 InfiniLore.Lucide
+        - 📦 InfiniLore.Blazor
     validations:
       required: true
 
