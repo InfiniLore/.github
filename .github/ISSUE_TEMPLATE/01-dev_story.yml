@@ -69,17 +69,14 @@ body:
       placeholder: ex. Unit tests for each new method, integration testing, etc.
 
   - type: dropdown
-    id: dev-application-section
+    id: progran-section
     attributes:
       label: 📐 Application Section
-      description: Which section of the app does this task belong to?
+      description: What does feature belong to
       options:
         - 🔗 API
-        - 🎨 Web UI
-        - 🔌 Kiota client wrapper
-        - 📦 InfiniLore.Credentials
-        - 📦 InfiniLore.Lucide
-        - 📦 InfiniLore.Blazor
+        - 🎨 UI
+        - 🚨 Testing
     validations:
       required: true
 
