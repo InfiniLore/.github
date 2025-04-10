@@ -64,3 +64,15 @@ body:
         ---
         
         _Template generated with [Issue Forms Creator](https://issue-forms-creator.netlify.app)_
+
+  - type: dropdown
+    id: progran-section
+    attributes:
+      label: 📐 Application Section
+      description: What does feature belong to
+      options:
+        - 🔗 API
+        - 🎨 UI
+        - 🚨 Testing
+    validations:
+      required: true
