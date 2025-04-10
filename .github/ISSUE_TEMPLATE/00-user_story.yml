@@ -74,10 +74,8 @@ body:
       description: What does feature belong to
       options:
         - 🔗 API
-        - 🎨 Web UI
-        - 🔌 Kiota client wrapper
-        - 📦 InfiniLore.Credentials
-        - 📦 InfiniLore.Lucide
+        - 🎨 UI
+        - 🚨 Testing
     validations:
       required: true
 
