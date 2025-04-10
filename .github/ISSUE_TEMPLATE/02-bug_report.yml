@@ -54,17 +54,6 @@ body:
       description: Include browser or OS version where the bug was encountered.
       placeholder: ex. Google Chrome v95, Windows 10
 
-  - type: markdown
-    attributes:
-      value: |-
-        ---
-        ### 💡 Notes & Logs 🌟
-        - Any logs, stack traces, or screenshots would be extremely helpful in diagnosing the issue.
-        
-        ---
-        
-        _Template generated with [Issue Forms Creator](https://issue-forms-creator.netlify.app)_
-
   - type: dropdown
     id: progran-section
     attributes:
@@ -76,3 +65,14 @@ body:
         - 🚨 Testing
     validations:
       required: true
+      
+  - type: markdown
+    attributes:
+      value: |-
+        ---
+        ### 💡 Notes & Logs 🌟
+        - Any logs, stack traces, or screenshots would be extremely helpful in diagnosing the issue.
+        
+        ---
+        
+        _Template generated with [Issue Forms Creator](https://issue-forms-creator.netlify.app)_
